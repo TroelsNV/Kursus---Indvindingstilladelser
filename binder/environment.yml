@@ -1,0 +1,14 @@
+name: flopy
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - jupyter
+  - jupyterlab
+  - scipy
+  - numpy
+  - pip
+  - pip:
+    - matplotlib
+    - pandas
+    - flopy
